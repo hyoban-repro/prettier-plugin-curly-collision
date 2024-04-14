@@ -1,0 +1,26 @@
+{
+  "name": "prettier-plugin-curly-collision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "prettier index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@8.15.6+sha256.01c01eeb990e379b31ef19c03e9d06a14afa5250b82e81303f88721c99ff2e6f",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "prettier": "^3.2.5",
+    "prettier-plugin-curly": "^0.2.1",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "typescript": "^5.4.5"
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-curly",
+      "prettier-plugin-organize-imports"
+    ]
+  }
+}
